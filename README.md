@@ -1,6 +1,12 @@
 # audio-conv
 convert thing
 
+## Installation
+
+`python3`: https://www.python.org/downloads/
+
+`ffmpeg`: https://www.thewindowsclub.com/how-to-install-ffmpeg-on-windows-10
+
 ## Example usage
 
 Convert all files in `.` from FLAC to AIFF:
