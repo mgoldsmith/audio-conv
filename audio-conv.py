@@ -1,10 +1,15 @@
 # this is python 3.8
 
-import os, argparse, subprocess
+import os, argparse, subprocess, platform, sys
 
 from_format = ".flac"
 to_format = ".aiff"
-ffmpeg = "ffmpeg.exe"
+if platform.system() == "Darwin":
+    ffmpeg = "ffmpeg"
+elif platform.system() == "Windows":
+    ffmpeg = "ffmpeg.exe"
+else:
+    sys.exit("ERROR: unsupported OS. supported: Mac, Windows")
 
 def conv(dir, preserve=False):
     for root, dirs, files in os.walk(dir):
