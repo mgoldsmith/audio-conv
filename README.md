@@ -5,7 +5,7 @@ convert thing
 
 `python3`: https://www.python.org/downloads/
 
-`ffmpeg`: https://www.thewindowsclub.com/how-to-install-ffmpeg-on-windows-10
+`ffmpeg` ([Windows](https://www.thewindowsclub.com/how-to-install-ffmpeg-on-windows-10), [Mac](http://jollejolles.com/install-ffmpeg-on-mac-os-x/))
 
 ## Example usage
 
