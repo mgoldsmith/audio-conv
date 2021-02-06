@@ -9,7 +9,7 @@ convert thing
 
 ## Example usage
 
-Convert all files in `.` from FLAC to AIFF:
+Convert all AIFF files in `.` and its subdirectories to FLAC (deleting original files):
 
 `python3 audio-conv.py .`
 
