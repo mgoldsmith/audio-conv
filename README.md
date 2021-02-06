@@ -9,10 +9,10 @@ convert thing
 
 ## Example usage
 
-Convert all AIFF files in `.` and its subdirectories to FLAC (deleting original files):
+Convert all AIFF files in `~/Music` and its subdirectories to FLAC (deleting original files):
 
-`python3 audio-conv.py .`
+`python3 audio-conv.py ~/Music`
 
 Preserve old files after conversion:
 
-`python3 audio-conv.py . --preserve`
+`python3 audio-conv.py ~/Music --preserve`
