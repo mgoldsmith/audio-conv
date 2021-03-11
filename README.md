@@ -1,5 +1,5 @@
 # audio-conv
-convert thing
+Convert FLAC files to AIFF.
 
 ## Installation
 
