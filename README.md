@@ -11,8 +11,8 @@ Convert FLAC files to AIFF.
 
 Convert all FLAC files in `~/Music` and its subdirectories to AIFF (deleting original files):
 
-`python3 audio-conv.py ~/Music`
+`python3 audio-conv ~/Music`
 
 Preserve old files after conversion:
 
-`python3 audio-conv.py ~/Music --preserve`
+`python3 audio-conv ~/Music --preserve`
